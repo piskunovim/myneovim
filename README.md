@@ -1,48 +1,31 @@
-# My Neovim Configuration
+# My Neovim 
 
-.config/nvim/init.vim
-```bash
-set runtimepath^=~/.vim runtimepath+=~/.vim/after
-let &packpath = &runtimepath
-source ~/.vimrc
-```
+Neovim installation guide can be found [here](https://github.com/neovim/neovim/wiki/Installing-Neovim).
 
-install-neovim.<span>s</span>h
-```bash
-# install neovim
-brew install neovim && brew install python3 && pip3 install neovim
 
-# install pathogen
-mkdir -p ~/.vim/autoload ~/.vim/bundle && \
-curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+### packages list
+>
+>- [prabirshrestha/async.vim](https://github.com/prabirshrestha/async.vim)
+>- [prabirshrestha/asyncomplete.vim](https://github.com/prabirshrestha/asyncomplete.vim)
+>- [prabirshrestha/vim-lsp](https://github.com/prabirshrestha/vim-lsp)
+>- [mattn/vim-lsp-settings](https://github.com/mattn/vim-lsp-settings)
+>- [neoclide/coc.nvim](https://github.com/neoclide/coc.nvim)
+>- [pangloss/vim-javascript](https://github.com/pangloss/vim-javascript)
+>- [leafgarland/typescript-vim](https://github.com/leafgarland/typescript-vim)
+>- [maxmellon/vim-jsx-pretty](https://github.com/MaxMEllon/vim-jsx-pretty)
+>- [jparise/vim-graphql](https://github.com/jparise/vim-graphql)
+>- [nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter)
+>- [nvim-telescope/telescope.nvim](https://github.com/nvim-telescope/telescope.nvim)
+>- [prettier/vim-prettier](https://github.com/prettier/vim-prettier)
 
-# install vim packages
-while read line; do
-  if [ "${line:0:1}" != "#" ]; then
-    git clone $line
-  fi
-done < ~/.vim/bundle/vim-packages
 
-# make snippets in vim-snippets available to ultisnips
-cp ~/.vim/bundle/vim-snippets/UltiSnips/* ~/.vim/bundle/ultisnips/syntax/
-```
+### coc-extensions
+> - [coc-pairs](https://github.com/neoclide/coc-pairs)
+> - [coc-eslint](https://github.com/neoclide/coc-eslint)
+> - [coc-tsserver](https://github.com/neoclide/coc-tsserver)
+> - [coc-json](https://github.com/neoclide/coc-json)
 
-~/.vim/bundle/vim-packages
 
-```bash
-# packages list
-https://github.com/jiangmiao/auto-pairs
-https://github.com/morhetz/gruvbox
-https://github.com/scrooloose/nerdcommenter
-https://github.com/scrooloose/nerdtree
-https://github.com/godlygeek/tabular
-https://github.com/sirver/ultisnips
-https://github.com/bling/vim-airline
-https://github.com/easymotion/vim-easymotion
-https://github.com/tpope/vim-repeat
-https://github.com/justinmk/vim-sneak
-https://github.com/honza/vim-snippets
-https://github.com/tpope/vim-surround
-```
+
 
 
