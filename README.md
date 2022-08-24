@@ -1,9 +1,11 @@
 # My Neovim 
 
-Neovim installation guide can be found [here](https://github.com/neovim/neovim/wiki/Installing-Neovim).
+[1] **[Neovim installation guide](https://github.com/neovim/neovim/wiki/Installing-Neovim)**
 
+[2] **[Plugin manager](https://github.com/junegunn/vim-plug)**
 
-### packages list
+[3] **Plugins list**
+ 
 >
 >- [prabirshrestha/async.vim](https://github.com/prabirshrestha/async.vim)
 >- [prabirshrestha/asyncomplete.vim](https://github.com/prabirshrestha/asyncomplete.vim)
@@ -19,7 +21,7 @@ Neovim installation guide can be found [here](https://github.com/neovim/neovim/w
 >- [prettier/vim-prettier](https://github.com/prettier/vim-prettier)
 
 
-### coc-extensions
+[4] **coc-extensions**
 > - [coc-pairs](https://github.com/neoclide/coc-pairs)
 > - [coc-eslint](https://github.com/neoclide/coc-eslint)
 > - [coc-tsserver](https://github.com/neoclide/coc-tsserver)
