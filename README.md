@@ -27,7 +27,27 @@
 > - [coc-tsserver](https://github.com/neoclide/coc-tsserver)
 > - [coc-json](https://github.com/neoclide/coc-json)
 
+[5] **Shortcuts**
+> **Navigation**
+> 
+> **Ctrl+P** - open navigator
+> **Ctrl+N** - focus on navigator
+> 
 
+> **Go to**
+> 
+> - **gd** - go to definition
+> - **gy** - go to type definition
+> - **gi** - go to the implementations (of an interface or abstract method)
+> - **gr** - go to the reference (to the usages of the current entity)
 
+> **Search for**
+> - **[Holding "\\"]ff** - find files
+> - **[Holding "\\"]fg** - find in files
+> - **[Holding "\\"]fb** - find in buffers
+> - **[Holding "\\"]fh** - find in vim help tags 
 
-
+>**Editing**
+>
+> - **gc\<n\>\<direction\>** - comment/uncomment line
+> - **[Holding "\\"]aa** - eslint autofix

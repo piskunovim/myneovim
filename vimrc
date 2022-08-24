@@ -36,7 +36,8 @@ omap T <Plug>Sneak_T
 " nmap <C-m>tr :NERDTreeToggle<cr>
 " NERDTree
 silent! nmap <C-p> :NERDTreeToggle<CR>
-silent! map <F3> :NERDTreeFind<CR>
+silent! map <C-f> :NERDTreeFind<CR>
+silent! map <C-n> :NERDTreeFocus<CR>
 
 let g:NERDTreeMapActivateNode="<F3>"
 let g:NERDTreeMapPreview="<F4>"
